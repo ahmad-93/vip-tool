@@ -1,5 +1,9 @@
-#!/usr/bin/python2
-# coding=utf-8
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# -*- Coded By Ahmad Alnemer -*-
+#Don't Change copyright Mother Fucker :)
+# -*- Syrian Coderz -*-
+#Tool Finished In : 10:15 27/1/2020
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib
 from multiprocessing.pool import ThreadPool
@@ -28,7 +32,7 @@ def exit():
 	os.system('clear')
 	print "\033[1;91m[!] Closing the tool..."
 	os.system('sleep 3 && clear')
-	os.system('xdg-open https://web.facebook.com/mkdirlove.git')
+	os.system('xdg-open https://www.facebook.com/viip4')
 	os.sys.exit()
         tool_main_function()
 
@@ -50,13 +54,12 @@ logo = """
     ##    ## ######## \033[0;96m\033[1m##     ## \033[95m\033[1m######## ##     ##
     \033[0;96m\033[1m################# ##     ## ##################
 \033[1;97m╔═════════════════════════════════════════════════════════════╗
-\033[1;97m║\033[1;93m* \033[1;97mTeam    \033[1;91m: \033[1;96mAnonySphinx Philippines \033[1;97m                         ║
-\033[1;97m║\033[1;93m* \033[1;97mRecode  \033[1;91m: \033[1;96mJayson Cabrillas San Buenaventura \033[1;97m               ║
-\033[1;97m║\033[1;93m* \033[1;97mGithub  \033[1;91m: \033[1;96mhttps://github.com/mkdirlove/FBTOOL\033[1;97m              ║
-\033[1;97m║\033[1;93m* \033[1;97mFB      \033[1;91m: \033[1;92m\033[4mhttps://web.facebook.com/mkdirlove.git\033[0m\033[1;97m           ║
-\033[1;97m║\033[1;93m* \033[1;97mCredits \033[1;91m: \033[1;96m[Wrath] [Magizz] [SantriCyber] \033[1;97m                  ║
+\033[1;97m║\033[1;93m* \033[1;97mTeam    \033[1;91m: \033[1;96mSyrian Coderz           \033[1;97m                         ║
+\033[1;97m║\033[1;93m* \033[1;97mRecode  \033[1;91m: \033[1;96mAhmad W Alnemer                   \033[1;97m               ║
+\033[1;97m║\033[1;93m* \033[1;97mGithub  \033[1;91m: \033[1;96mhttps://github.com/ahmad-93/vip-tool\033[1;97m             ║
+\033[1;97m║\033[1;93m* \033[1;97mFB      \033[1;91m: \033[1;92m\033[4mhttps://www.facebook.com/viip4\033[0m\033[1;97m     ║
 \033[1;97m║\033[1;93m* \033[1;97mNotice \033[1;91m : \033[1;96mThis is not my own work, i just recoded it. \033[1;97m     ║
-\033[1;97m║\033[1;93m* \033[1;97mVersion \033[1;91m: \033[1;92m\033[4m1.1.0\033[0m                        \033[1;97m                    ║
+\033[1;97m║\033[1;93m* \033[1;97mVersion \033[1;91m: \033[1;92m\033[4m2.1.0\033[0m                        \033[1;97m                    ║
 \033[1;97m╚═════════════════════════════════════════════════════════════╝"""
 
 # load #
